@@ -10,7 +10,7 @@ function decimalToBinary(num) {
 		}
 		num = Math.floor(num / 2);
 	}
-	console.log(binary.split("").reverse().join(""));
+	return binary.split("").reverse().join("");
 }
 
 window.decimalToBinary = decimalToBinary;
